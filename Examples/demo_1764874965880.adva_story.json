@@ -1,0 +1,180 @@
+{
+  "job_id": "demo-1764874965880",
+  "client": {
+    "name": "Fetch.ai",
+    "url": "https://fetch.ai"
+  },
+  "story_config": {
+    "duration_seconds": 25,
+    "max_scenes": 5,
+    "language": "en",
+    "aspect_ratio": "9:16",
+    "platform": "social",
+    "avatar_gender": "any",
+    "avatar_style": "modern_friendly"
+  },
+  "story": {
+    "title": "The Agentic Economy: Fetch.ai",
+    "hook": {
+      "scene_id": "scene-1",
+      "summary": "A single, abstract AI agent symbol pulses with light, then fragments into millions of smaller, interconnected lights, representing the agentic economy.",
+      "rationale": "This visually striking and slightly abstract hook immediately communicates the core concept of interconnected AI agents and hints at a vast, dynamic ecosystem, aligning with the visionary and innovative tone."
+    },
+    "scenes": [
+      {
+        "id": "scene-1",
+        "role": "hook",
+        "order": 1,
+        "approx_duration_sec": 4,
+        "start": {
+          "visual": "A single, glowing, abstract AI core symbol in a dark, digital space.",
+          "audio": "Subtle, ethereal ambient hum.",
+          "environment": "Digital space"
+        },
+        "action": {
+          "visual": "The core symbol pulses, then rapidly breaks apart into countless tiny, interconnected lights that form a vast, dynamic network.",
+          "audio": "The hum intensifies and evolves into a more complex, rhythmic electronic pulse.",
+          "environment_change": null
+        },
+        "voiceover": {
+          "speaker": "narrator",
+          "text": "Imagine a world where AI doesn't just respond... it acts."
+        },
+        "on_screen_text": "",
+        "sound": {
+          "music_cue": "Ethereal, evolving electronic.",
+          "sfx": [
+            "Subtle digital pulse"
+          ]
+        },
+        "transition_out": "The network of lights continues to expand and connect."
+      },
+      {
+        "id": "scene-2",
+        "role": "problem",
+        "order": 2,
+        "approx_duration_sec": 5,
+        "start": {
+          "visual": "A business professional looking overwhelmed by a complex flow of data and tasks on multiple screens in a modern office.",
+          "audio": "Fast-paced, slightly chaotic electronic music.",
+          "environment": "Modern office"
+        },
+        "action": {
+          "visual": "The screens flicker with complex charts and notifications. The professional sighs, rubbing their temples.",
+          "audio": "Music becomes slightly more dissonant, with subtle notification sounds.",
+          "environment_change": null
+        },
+        "voiceover": {
+          "speaker": "narrator",
+          "text": "Today's challenges demand more than just data. They demand intelligent action."
+        },
+        "on_screen_text": "",
+        "sound": {
+          "music_cue": "Tense, driving electronic.",
+          "sfx": [
+            "Flickering screens",
+            "Subtle notification pings"
+          ]
+        },
+        "transition_out": "The professional looks up, a glimmer of hope appearing."
+      },
+      {
+        "id": "scene-3",
+        "role": "solution",
+        "order": 3,
+        "approx_duration_sec": 6,
+        "start": {
+          "visual": "The abstract AI core symbol from scene 1 appears, projecting a network of connections onto the business professional's desk.",
+          "audio": "Music shifts to a more uplifting, empowering tone.",
+          "environment": "Modern office"
+        },
+        "action": {
+          "visual": "The professional interacts with the projected network, which resolves into clear, actionable insights and automated workflows. The screens simplify.",
+          "audio": "Music becomes more melodic and confident. A gentle, positive chime.",
+          "environment_change": null
+        },
+        "voiceover": {
+          "speaker": "narrator",
+          "text": "Introducing Fetch.ai: the complete ecosystem for the agentic world. Build, discover, and transact with AI agents that work for you."
+        },
+        "on_screen_text": "Fetch.ai",
+        "sound": {
+          "music_cue": "Empowering, visionary electronic.",
+          "sfx": [
+            "Positive chime"
+          ]
+        },
+        "transition_out": "The professional smiles, now in control."
+      },
+      {
+        "id": "scene-4",
+        "role": "proof",
+        "order": 4,
+        "approx_duration_sec": 6,
+        "start": {
+          "visual": "Split screen: One side shows a developer coding, the other shows a stylized representation of millions of AI agents interacting and transacting seamlessly.",
+          "audio": "Rhythmic, innovative electronic music.",
+          "environment": "Digital space / AI studio"
+        },
+        "action": {
+          "visual": "On the developer side, code lines flow smoothly. On the agent side, transactions are visualized as glowing transfers of value. Text overlays highlight key benefits.",
+          "audio": "Music builds in intensity and complexity.",
+          "environment_change": null
+        },
+        "voiceover": {
+          "speaker": "narrator",
+          "text": "Experience AI that listens, remembers, and takes action. Transform your business with agents that automate and scale your work."
+        },
+        "on_screen_text": "Automate. Scale. Innovate.",
+        "sound": {
+          "music_cue": "Dynamic, forward-thinking electronic.",
+          "sfx": [
+            "Smooth data flow sounds"
+          ]
+        },
+        "transition_out": "The split screen converges into a single, powerful visualization of the agentic economy."
+      },
+      {
+        "id": "scene-5",
+        "role": "cta",
+        "order": 5,
+        "approx_duration_sec": 4,
+        "start": {
+          "visual": "The Fetch.ai logo appears prominently against a backdrop of the interconnected AI agent network.",
+          "audio": "Uplifting, conclusive electronic music.",
+          "environment": "Digital space"
+        },
+        "action": {
+          "visual": "The Fetch.ai logo animates slightly. The CTA text and URL appear below it.",
+          "audio": "Music resolves with a final, strong chord.",
+          "environment_change": null
+        },
+        "voiceover": {
+          "speaker": "narrator",
+          "text": "Explore the agentic economy and start building with Fetch.ai today."
+        },
+        "on_screen_text": "Explore Fetch.ai",
+        "sound": {
+          "music_cue": "Inspiring, conclusive electronic.",
+          "sfx": []
+        },
+        "transition_out": "Fade to black."
+      }
+    ],
+    "cta": {
+      "primary_line": "Explore the agentic economy and start building with Fetch.ai today.",
+      "secondary_line": null,
+      "url": "https://fetch.ai",
+      "voiceover": {
+        "speaker": "narrator",
+        "text": "Explore the agentic economy and start building with Fetch.ai today."
+      },
+      "on_screen_text": "Explore Fetch.ai"
+    }
+  },
+  "meta": {
+    "created_at": "2023-10-27T10:00:00Z",
+    "agent": "AdvaStory AI Agent",
+    "agent_version": "1.0.0"
+  }
+}
