@@ -3,7 +3,7 @@
 AdvaStory Demo – Brief JSON -> 5-scene Storyboard (JSON)
 
 Usage:
-  python cli_demo/advastory_demo.py --input examples/brief_example_procare.json --out examples/story_demo_output.json
+  python advastory_demo.py --input examples/brief_example_procare.json --out examples/story_demo_output.json
 """
 
 import argparse
@@ -34,7 +34,7 @@ class StoryResult:
 
 def demo_story_from_brief(brief: Dict[str, Any]) -> StoryResult:
     campaign_title = brief.get("campaign_title", "Brand Campaign")
-    brand_name = campaign_title.split(":")[0] if ":" in campaign_title else campaign_title
+    brand_name = campaign_title.split(":")[0].strip() if ":" in campaign_title else campaign_title
     cta = brief.get("cta", "Get started")
     target_audience = brief.get("target_audience", "your audience")
     smp = brief.get("single_minded_proposition", "Your simple key message.")
@@ -65,7 +65,7 @@ def demo_story_from_brief(brief: Dict[str, Any]) -> StoryResult:
             id=2,
             timestamp="3–8s",
             visual="Quick montage of people in real-life situations, looking frustrated.",
-            voiceover=f\"\"\"You're not alone. Many {target_audience} feel exactly the same.\"\"\"",
+            voiceover=f"You're not alone. Many {target_audience} feel exactly the same.",
             on_screen_text="You’re not alone.",
             notes="Keep cuts short, show emotion and relatability.",
         )
@@ -77,7 +77,7 @@ def demo_story_from_brief(brief: Dict[str, Any]) -> StoryResult:
             id=3,
             timestamp="8–15s",
             visual=f"Smooth transition to a clean interface or scene introducing {brand_name}.",
-            voiceover=f\"\"\"That's why {brand_name} exists – {smp.lower()}\"\"\"",
+            voiceover=f"That's why {brand_name} exists – {smp.lower()}",
             on_screen_text=f"{brand_name} makes it simple.",
             notes="Show product/service in action with clear visuals.",
         )
@@ -101,7 +101,7 @@ def demo_story_from_brief(brief: Dict[str, Any]) -> StoryResult:
             id=5,
             timestamp="23–30s",
             visual=f"Hero frame with {brand_name} logo, short tagline, and a clear CTA button.",
-            voiceover=f\"\"\"Join others who already switched. {cta}.\"\"\"",
+            voiceover=f"Join others who already switched. {cta}.",
             on_screen_text=cta,
             notes="Freeze the last 2 seconds so the logo and CTA are easy to read.",
         )
